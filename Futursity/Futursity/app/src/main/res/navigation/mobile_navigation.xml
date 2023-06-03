@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_course">
+
+    <fragment
+        android:id="@+id/navigation_course"
+        android:name="com.example.futursity.ui.CourseFragment"
+        android:label="@string/course"
+        tools:layout="@layout/fragment_course" />
+
+    <fragment
+        android:id="@+id/navigation_my_course"
+        android:name="com.example.futursity.ui.MyCourseFragment"
+        android:label="@string/my_course"
+        tools:layout="@layout/fragment_my_course" />
+
+    <fragment
+        android:id="@+id/navigation_wishlist"
+        android:name="com.example.futursity.ui.WishlistFragment"
+        android:label="@string/wishlist"
+        tools:layout="@layout/fragment_wishlist" />
+
+    <fragment
+        android:id="@+id/navigation_account"
+        android:name="com.example.futursity.ui.AccountFragment"
+        android:label="@string/account"
+        tools:layout="@layout/fragment_account" />
+
+</navigation>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_course"
+        android:icon="@drawable/ic_course_24"
+        android:title="@string/course" />
+
+    <item
+        android:id="@+id/navigation_my_course"
+        android:icon="@drawable/ic_my_course_24"
+        android:title="@string/my_course" />
+
+    <item
+        android:id="@+id/navigation_wishlist"
+        android:icon="@drawable/ic_wishlist_24"
+        android:title="@string/wishlist" />
+
+    <item
+        android:id="@+id/navigation_account"
+        android:icon="@drawable/ic_account_24"
+        android:title="@string/account" />
+
+</menu>
